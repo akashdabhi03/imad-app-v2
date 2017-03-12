@@ -38,7 +38,6 @@ var articles = {
             <p>
                 This is the content for my second article.
             </p>
-            
     },
     'article-three': {
         title: 'Article three | Akash Dabhi',
@@ -48,8 +47,7 @@ var articles = {
             <p>
                 This is the content for my third article.
             </p>
-            
-    },
+    }
 };
 
 app.get('/', function (req, res) {
