@@ -1,8 +1,8 @@
 var submit = document.getElementById('submit_btn');
 submit.onclick = function () {
-    var request = new XMPHttpRequest();
+    var request = new XMLHttpRequest();
     request.onreadystatechange = function () {
-        if (request.readyState === XMPHttpRequest.DONE) {
+        if (request.readyState === XMLHttpRequest.DONE) {
             if (request.status === 200) {
                 alert('Logged in successfully');
             } else if (request.status === 403) {
